@@ -1,0 +1,23 @@
+html, body {
+  font-family: "Roboto", "Noto Sans JP", "游ゴシック", YuGothic, "Helvetica", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "Helvetica Neue", Arial, sans-serif !important;
+}
+
+.capriola {
+  font-family: "Capriola", sans-serif;
+}
+
+.shadow {
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+p a {
+  border-bottom: 1px dashed #777;
+}
+
+.themeText {
+  color: #8f80bd;
+}
+
+.themeGradient {
+  background: linear-gradient(135deg, #87c0db, #c183c1);
+}
