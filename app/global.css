@@ -7,7 +7,7 @@ html, body {
 }
 
 .shadow {
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
 }
 
 p a {
@@ -20,4 +20,13 @@ p a {
 
 .themeGradient {
   background: linear-gradient(135deg, #87c0db, #c183c1);
+}
+
+h2::after {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 3px;
+  background-color: #ddd;
+  margin: 15px auto;
 }

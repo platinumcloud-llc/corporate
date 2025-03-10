@@ -27,7 +27,7 @@ export default function Layout({children}: Readonly<{ children: React.ReactNode 
         <ClientProvider>
           <Box minH={'100vh'}>
             <Box w={'full'} h={'7px'} className={'themeGradient'}/>
-            <Box mb={10}>
+            <Box>
               {children}
             </Box>
           </Box>
