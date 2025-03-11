@@ -1,0 +1,15 @@
+h3 {
+  margin-top: 1.8rem;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+ol, ul {
+  margin: 0.5rem 0;
+}
+
+li {
+  list-style-type: disc;
+  margin-left: 2rem;
+}

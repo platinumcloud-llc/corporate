@@ -2,6 +2,8 @@ import {Capriola, Noto_Sans_JP, Roboto} from 'next/font/google'
 import ClientProvider from '@/components/ClientProvider'
 import './global.css'
 import {Box} from '@chakra-ui/react'
+import {PlatinumCloudLogo} from '@/components/PlatinumCloudLogo'
+import {Footer} from '@/components/Footer'
 
 const capriola = Capriola({
   weight: ['400'],
@@ -27,9 +29,9 @@ export default function Layout({children}: Readonly<{ children: React.ReactNode 
         <ClientProvider>
           <Box minH={'100vh'}>
             <Box w={'full'} h={'7px'} className={'themeGradient'}/>
-            <Box>
-              {children}
-            </Box>
+            <PlatinumCloudLogo/>
+            {children}
+            <Footer/>
           </Box>
         </ClientProvider>
       </body>

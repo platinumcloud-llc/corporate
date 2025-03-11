@@ -26,7 +26,7 @@ export function Welcome() {
           fontWeight={'bold'}
           textShadow={'0 0 10px rgba(0, 0, 0, 0.1)'}
         >
-          私たちプラチナクラウドは、<br/>テクノロジーを活用して、次世代の &quot;かわいい&quot; を拡大します。
+          私たちプラチナクラウドは、<br/>テクノロジーを活用して、新しい &quot;かわいい&quot; を生み出します。
         </Text>
       </Box>
     </Box>
