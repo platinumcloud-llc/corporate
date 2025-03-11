@@ -4,7 +4,9 @@ import {SubscribeLogo} from '@/components/SubscribeLogo'
 
 export function Services() {
   return (
-    <Box bgColor={'#f5f5f5'}>
+    <Box
+      background={'repeating-linear-gradient(120deg, transparent, transparent 60px, #f7f7f7 60px, #f7f7f7 120px)'}
+    >
       <Box
         maxW={'1000px'}
         mx={'auto'}
@@ -20,6 +22,11 @@ export function Services() {
             className={'shadow'}
             bgColor={'#fff'}
             gap={4}
+            transition={'transform .2s'}
+            _hover={{
+              transform: 'scale(1.03)',
+              opacity: 0.9
+            }}
           >
             <SubscribeLogo size={'4xl'}/>
             <Text fontSize={'sm'} textAlign={'center'} color={'#555'}>

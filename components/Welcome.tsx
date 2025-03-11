@@ -17,11 +17,16 @@ export function Welcome() {
           fontSize={{base: '47px', md: '80px'}}
           lineHeight={'1.3'}
           mb={6}
+          textShadow={'0 0 10px rgba(0, 0, 0, 0.1)'}
         >
           Empowering<br/>brandnew kawaii<br/>with technology.
         </Text>
-        <Text fontSize={{base: '16px', md: '20px'}} fontWeight={'bold'}>
-          私たちプラチナクラウドは、<br/>テクノロジーを活用して、次世代の &quot;かわいい&quot; を探求します。
+        <Text
+          fontSize={{base: '16px', md: '20px'}}
+          fontWeight={'bold'}
+          textShadow={'0 0 10px rgba(0, 0, 0, 0.1)'}
+        >
+          私たちプラチナクラウドは、<br/>テクノロジーを活用して、次世代の &quot;かわいい&quot; を拡大します。
         </Text>
       </Box>
     </Box>

@@ -12,7 +12,7 @@ export function Contacts() {
     >
       <Heading fontSize={'2xl'} mb={8} textAlign={'center'}>お問い合わせ</Heading>
       <Text textAlign={'center'} mb={5}>
-        プラチナクラウド合同会社へのお問い合わせはこちらのフォームよりお願いいたします。
+        プラチナクラウド合同会社へのお問い合わせは以下のフォームよりお願いいたします。
       </Text>
       <VStack>
         <Link href={'https://forms.gle/tCz2gj1wcsHGMuPD6'} target={'_blank'}>
@@ -20,6 +20,7 @@ export function Contacts() {
             size={'xl'}
             borderRadius={5}
             w={'300px'}
+            bgColor={'#333'}
           >
             お問い合わせフォーム
           </Button>

@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 export function CompanyAccess() {
   return (
-    <Box bgColor={'#f5f5f5'}>
+    <Box bgColor={'#f7f7f7'}>
       <Box
         maxW={'800px'}
         mx={'auto'}
@@ -37,8 +37,11 @@ export function CompanyAccess() {
           <Text fontSize={'sm'}>
             JR秋葉原駅電気街口から「アキバブリッジ」を通って徒歩3分。<br/>
             秋葉原へは、都心を結ぶJR山手線の他、京浜東北線、総武線及び東京メトロ日比谷線、銀座線（末広町駅）、つくばエクスプレスが接続しています。<br/>
-            秋葉原UDXまでの行き方はこちらをご確認ください：<Link href={'https://udx.jp/access/'}
-                                                                target={'_blank'}>https://udx.jp/access/</Link>
+            秋葉原UDXまでの行き方はこちらをご確認ください：
+            <Link
+              href={'https://udx.jp/access/'}
+              target={'_blank'}
+            >https://udx.jp/access/</Link>
           </Text>
         </Box>
       </Box>

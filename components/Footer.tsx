@@ -1,17 +1,29 @@
 import {Box, HStack, Text} from '@chakra-ui/react'
 import {PlatinumCloudLogo} from '@/components/PlatinumCloudLogo'
 import Link from 'next/link'
+import {Tooltip} from '@/components/ui/tooltip'
 
 export function Footer() {
   return (
     <Box bgColor={'#333'} p={5}>
       <PlatinumCloudLogo size={'lg'} white/>
-      <Text color={'white'} fontSize={'sm'} fontWeight={'bold'} textAlign={'center'} mb={2}>
+      <Text color={'white'} fontWeight={'bold'} textAlign={'center'} my={2}>
         プラチナクラウド合同会社
       </Text>
-      <HStack gap={5} justify={'center'} mb={5}>
+      <HStack gap={8} justify={'center'} mb={5}>
         <Text color={'white'} fontSize={'sm'}>
           <Link href={'https://forms.gle/tCz2gj1wcsHGMuPD6'} target={'_blank'}>お問い合わせ</Link>
+        </Text>
+        <Text color={'white'} fontSize={'sm'}>
+          <Tooltip
+            content={'現在募集は行っておりません'}
+            positioning={{placement: 'top'}}
+            showArrow
+            openDelay={0}
+            closeDelay={0}
+          >
+            <Link href={'#'}>採用情報</Link>
+          </Tooltip>
         </Text>
         <Text color={'white'} fontSize={'sm'}>
           <Link href={'/policies/privacy'}>プライバシーポリシー</Link>
