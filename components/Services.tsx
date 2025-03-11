@@ -14,7 +14,7 @@ export function Services() {
         py={20}
         px={5}
       >
-        <Heading as={'h2'} fontSize={'2xl'} mb={8} textAlign={'center'}>プロダクト</Heading>
+        <Heading as={'h2'} fontSize={'2xl'} mb={8} textAlign={'center'}>事業・サービス</Heading>
         <Link href={'https://subscribe.sh/'} target={'_blank'}>
           <VStack
             p={10}
