@@ -1,4 +1,5 @@
 import {Capriola, Noto_Sans_JP, Roboto} from 'next/font/google'
+import { GoogleAnalytics } from '@next/third-parties/google'
 import ClientProvider from '@/components/ClientProvider'
 import './global.css'
 import {Box} from '@chakra-ui/react'
@@ -34,6 +35,7 @@ export default function Layout({children}: Readonly<{ children: React.ReactNode 
             <Footer/>
           </Box>
         </ClientProvider>
+        <GoogleAnalytics gaId="G-0WTG5V6GLM" />
       </body>
     </html>
   )

@@ -9,7 +9,7 @@ export function Welcome() {
       px={{base: 5, md: 10}}
       py={24}
       color={'white'}
-      borderRadius={10}
+      borderRadius={20}
     >
       <Box maxW={'1000px'} mx={'auto'}>
         <Text

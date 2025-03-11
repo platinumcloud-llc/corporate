@@ -7,13 +7,7 @@ export function Footer() {
   return (
     <Box bgColor={'#333'} p={5}>
       <PlatinumCloudLogo size={'lg'} white/>
-      <Text color={'white'} fontWeight={'bold'} textAlign={'center'} my={2}>
-        プラチナクラウド合同会社
-      </Text>
       <HStack gap={8} justify={'center'} mb={5}>
-        <Text color={'white'} fontSize={'sm'}>
-          <Link href={'https://forms.gle/tCz2gj1wcsHGMuPD6'} target={'_blank'}>お問い合わせ</Link>
-        </Text>
         <Text color={'white'} fontSize={'sm'}>
           <Tooltip
             content={'現在募集は行っておりません'}
