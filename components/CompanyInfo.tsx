@@ -39,7 +39,7 @@ export function CompanyInfo() {
           <Stack gap={2}>
             <Text as={'dd'}>WEBサービスの企画・開発・運用・コンサルティング</Text>
             <Text as={'dd'}>
-              表現する全ての人を支援するプラットフォーム「<b>subscribe*</b>」の運営
+              スケジュール共有プラットフォーム「<b>subscribe*</b>」の運営
             </Text>
           </Stack>
         </Stack>
