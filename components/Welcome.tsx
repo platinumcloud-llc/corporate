@@ -22,11 +22,17 @@ export function Welcome() {
           Empowering<br/>brandnew kawaii<br/>with technology.
         </Text>
         <Text
-          fontSize={{base: '16px', md: '20px'}}
+          fontSize={{base: '1.1rem', md: '1.3rem'}}
           fontWeight={'bold'}
           textShadow={'0 0 10px rgba(0, 0, 0, 0.1)'}
         >
           私たちプラチナクラウドは、<br/>テクノロジーを活用して、新しい &quot;かわいい&quot; を生み出します。
+        </Text>
+        <Text
+          mt={2}
+          fontSize={{base: '0.9rem', md: '1rem'}}
+        >
+          「かわいい」あるいは「ゆるふわ」で「なだらか」で「やさしい」プロダクトを届けます。
         </Text>
       </Box>
     </Box>
