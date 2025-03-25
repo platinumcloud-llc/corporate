@@ -16,7 +16,7 @@ export function Footer() {
             openDelay={0}
             closeDelay={0}
           >
-            <Link href={'#'}>採用情報</Link>
+            <Link href={'/'}>採用情報</Link>
           </Tooltip>
         </Text>
         <Text color={'white'} fontSize={'sm'}>

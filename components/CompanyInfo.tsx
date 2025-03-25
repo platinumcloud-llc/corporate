@@ -28,7 +28,7 @@ export function CompanyInfo() {
         </Stack>
         <Stack direction={{base: 'column', md: 'row'}} p={5} borderBottom={'2px solid #eee'}>
           <Text as={'dt'} fontWeight={'bold'} w={'150px'}>設立</Text>
-          <Text as={'dd'}>2025年04月01日</Text>
+          <Text as={'dd'}>2025年04月01日 (*設立手続中)</Text>
         </Stack>
         <Stack direction={{base: 'column', md: 'row'}} p={5} borderBottom={'2px solid #eee'}>
           <Text as={'dt'} fontWeight={'bold'} w={'150px'}>資本金</Text>
