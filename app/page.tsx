@@ -1,11 +1,18 @@
-import {Box, Text} from '@chakra-ui/react'
-import {PlatinumCloudLogo} from '@/components/PlatinumCloudLogo'
+import {Box} from '@chakra-ui/react'
+import {CompanyInfo} from '@/components/CompanyInfo'
+import {CompanyAccess} from '@/components/CompanyAccess'
+import {Welcome} from '@/components/Welcome'
+import {Services} from '@/components/Services'
+import {Contacts} from '@/components/Contacts'
 
 export default function Page() {
   return (
     <Box>
-      <PlatinumCloudLogo />
-      <Text textAlign={'center'}>It works!</Text>
+      <Welcome/>
+      <Services/>
+      <CompanyInfo/>
+      <CompanyAccess/>
+      <Contacts/>
     </Box>
   )
 }
