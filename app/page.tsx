@@ -7,10 +7,10 @@ import {Contacts} from '@/components/Contacts'
 
 export const metadata = {
   title: 'プラチナクラウド合同会社 (platinumcloud LLC)',
-  description: 'プラチナクラウド合同会社の企業サイトです。企業情報、事業情報、採用情報など。テクノロジーを活用して、新しい "かわいい" を届けます。',
+  description: 'プラチナクラウド合同会社の企業サイトです。テクノロジーで、新しい「かわいい」を咲かせます。企業情報、事業内容、採用情報など。',
   openGraph: {
     title: 'プラチナクラウド合同会社 (platinumcloud LLC)',
-    description: 'プラチナクラウド合同会社の企業サイトです。企業情報、事業情報、採用情報など。テクノロジーを活用して、新しい "かわいい" を届けます。',
+    description: 'プラチナクラウド合同会社の企業サイトです。テクノロジーで、新しい「かわいい」を咲かせます。企業情報、事業内容、採用情報など。',
     url: 'https://platinumcloud.net',
     type: 'website',
     images: [

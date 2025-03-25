@@ -19,20 +19,20 @@ export function Welcome() {
           mb={6}
           textShadow={'0 0 10px rgba(0, 0, 0, 0.1)'}
         >
-          Empowering<br/>brandnew kawaii<br/>with technology.
+          Blooming<br />brandnew kawaii<br/>with technology.
         </Text>
         <Text
           fontSize={{base: '1.1rem', md: '1.3rem'}}
           fontWeight={'bold'}
           textShadow={'0 0 10px rgba(0, 0, 0, 0.1)'}
         >
-          私たちプラチナクラウドは、<br/>テクノロジーを活用して、新しい &quot;かわいい&quot; を届けます。
+          私たちプラチナクラウドは、<br/>新しい &quot;かわいい&quot; をテクノロジーで咲かせます。
         </Text>
         <Text
           mt={2}
           fontSize={{base: '0.9rem', md: '1rem'}}
         >
-          「かわいい」あるいは「ゆるふわ」で「やさしい」プロダクトを開発し、世界をちょっとだけ笑顔にします。
+          「かわいい」あるいは「ゆるふわ」で「やさしい」プロダクトを開発し、世界をちょっとだけ幸せにすることを目指します。
         </Text>
       </Box>
     </Box>
