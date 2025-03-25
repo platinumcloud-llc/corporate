@@ -2,6 +2,14 @@ import '../policies.css'
 import {Box, Heading, Text} from '@chakra-ui/react'
 import Link from 'next/link'
 
+export const metadata = {
+  title: '利用規約',
+  robots: {
+    index: false,
+    follow: false,
+  },
+}
+
 export default function Page() {
 
   return (
