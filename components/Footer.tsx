@@ -26,6 +26,10 @@ export function Footer() {
           <Link href={'/policies/terms'}>利用規約</Link>
         </Text>
       </HStack>
+      <Text fontSize={'xs'} textAlign={'center'} color={'#ffffff'} mb={5}>
+        Made with ❤️ in Akihabara<br />
+        &copy; 2025 platinumcloud
+      </Text>
     </Box>
   )
 }
