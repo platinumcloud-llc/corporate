@@ -31,7 +31,7 @@ export function Services() {
         {/*  >*/}
         {/*    <SubscribeLogo size={'4xl'}/>*/}
         {/*    <Text fontSize={'sm'} textAlign={'center'} color={'#555'}>*/}
-        {/*      表現する全ての人を応援する<br />スケジュール共有プラットフォーム <b>subscribe*</b>*/}
+        {/*      表現する人と応援する人をつなぐ<br />スケジュール配信プラットフォーム <b>subscribe*</b>*/}
         {/*    </Text>*/}
         {/*  </VStack>*/}
         {/*</Link>*/}
@@ -44,30 +44,13 @@ export function Services() {
           mb={10}
         >
           <SubscribeLogo size={'4xl'}/>
+          <Text fontSize={'sm'} textAlign={'center'} color={'#555'}>
+            表現する人と応援する人をつなぐ<br />スケジュール配信プラットフォーム <b>subscribe*</b>
+          </Text>
           <Text textAlign={'center'} color={'#555'}>
-            2025年春リリース予定
+            2025年春、まもなく公開予定
           </Text>
         </VStack>
-
-        {/*<Link href={'https://subscribe.sh/'} target={'_blank'}>*/}
-        {/*  <VStack*/}
-        {/*    p={10}*/}
-        {/*    borderRadius={10}*/}
-        {/*    bgColor={'#fff'}*/}
-        {/*    gap={4}*/}
-        {/*    className={'shadow'}*/}
-        {/*    transition={'transform .2s'}*/}
-        {/*    _hover={{*/}
-        {/*      transform: 'scale(1.03)',*/}
-        {/*      opacity: 0.9*/}
-        {/*    }}*/}
-        {/*  >*/}
-        {/*    <Text textAlign={'center'} color={'#555'} fontWeight={'bold'} fontSize={'lg'}>ウェブ開発(業務委託)</Text>*/}
-        {/*    <Text textAlign={'center'} color={'#555'} fontSize={'sm'}>*/}
-        {/*      Next.js / React / TypeScript / GoogleCloud 等を組み合わせたWebアプリケーションの設計開発を承ります*/}
-        {/*    </Text>*/}
-        {/*  </VStack>*/}
-        {/*</Link>*/}
 
         <VStack
           p={10}
@@ -77,10 +60,10 @@ export function Services() {
           opacity={0.7}
           mb={10}
         >
-          <Text textAlign={'center'} color={'#555'} fontWeight={'bold'} fontSize={'lg'}>ウェブ開発(業務委託)</Text>
+          <Text textAlign={'center'} color={'#555'} fontWeight={'bold'} fontSize={'lg'}>ウェブアプリ開発(業務委託)</Text>
           <Text textAlign={'center'} color={'#555'} fontSize={'sm'}>
             Next.js / React / TypeScript / GoogleCloud 等を組み合わせたWebアプリケーションの設計開発を承ります<br />
-            *現在は受付を休止しております (2025/04/01現在)
+            (現在は募集を休止しております)
           </Text>
         </VStack>
 

@@ -28,7 +28,7 @@ export function CompanyInfo() {
         </Stack>
         <Stack direction={{base: 'column', md: 'row'}} p={5} borderBottom={'2px solid #eee'}>
           <Text as={'dt'} fontWeight={'bold'} w={'150px'}>設立</Text>
-          <Text as={'dd'}>2025年04月01日 (*設立手続中)</Text>
+          <Text as={'dd'}>2025年04月01日 (*設立準備中)</Text>
         </Stack>
         <Stack direction={{base: 'column', md: 'row'}} p={5} borderBottom={'2px solid #eee'}>
           <Text as={'dt'} fontWeight={'bold'} w={'150px'}>資本金</Text>
@@ -37,9 +37,9 @@ export function CompanyInfo() {
         <Stack direction={{base: 'column', md: 'row'}} p={5}>
           <Text as={'dt'} fontWeight={'bold'} w={'150px'}>事業内容</Text>
           <Stack gap={2}>
-            <Text as={'dd'}>WEBサービスの企画・開発・運用・コンサルティング</Text>
+            <Text as={'dd'}>Webアプリケーションの設計・開発</Text>
             <Text as={'dd'}>
-              スケジュール共有プラットフォーム「<b>subscribe*</b>」の運営
+              スケジュール配信プラットフォーム「<b>subscribe*</b>」の開発
             </Text>
           </Stack>
         </Stack>
