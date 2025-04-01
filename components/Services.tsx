@@ -48,7 +48,7 @@ export function Services() {
             表現する人と応援する人をつなぐ<br />スケジュール配信プラットフォーム <b>subscribe*</b>
           </Text>
           <Text textAlign={'center'} color={'#555'}>
-            2025年春、まもなく公開予定
+            まもなく公開予定
           </Text>
         </VStack>
 
