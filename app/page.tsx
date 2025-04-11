@@ -9,6 +9,7 @@ export const metadata = {
   title: 'プラチナクラウド合同会社 (platinumcloud LLC)',
   description: 'プラチナクラウド合同会社(platinumcloud LLC)の企業サイトです。テクノロジーで、新しい「かわいい」を咲かせます。秋葉原のWebアプリケーション開発会社。企業情報、事業内容、採用情報など。',
   openGraph: {
+    siteName: 'プラチナクラウド',
     title: 'プラチナクラウド合同会社 (platinumcloud LLC)',
     description: 'プラチナクラウド合同会社(platinumcloud LLC)の企業サイトです。テクノロジーで、新しい「かわいい」を咲かせます。秋葉原のWebアプリケーション開発会社。企業情報、事業内容、採用情報など。',
     url: 'https://platinumcloud.net',
