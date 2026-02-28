@@ -15,28 +15,6 @@ export function Services() {
         px={5}
       >
         <Heading as={'h2'} fontSize={'2xl'} mb={8} textAlign={'center'}>事業・サービス</Heading>
-        <Link href={'https://subscribe.sh/'} target={'_blank'}>
-          <VStack
-            p={14}
-            borderRadius={10}
-            bgColor={'#fff'}
-            gap={4}
-            className={'shadow'}
-            transition={'transform .2s'}
-            _hover={{
-              transform: 'scale(1.03)',
-              opacity: 0.9
-            }}
-            mb={10}
-            border={'4px solid #bbe2f1'}
-          >
-            <SubscribeLogo size={'4xl'}/>
-            <Text fontSize={'sm'} textAlign={'center'} color={'#555'}>
-              表現する人と応援する人をつなぐ<br />スケジュール配信プラットフォーム <b>subscribe*</b>
-            </Text>
-          </VStack>
-        </Link>
-
         <VStack
           p={10}
           borderRadius={10}
