@@ -1,6 +1,4 @@
 import {Box, Heading, Text, VStack} from '@chakra-ui/react'
-import {SubscribeLogo} from '@/components/SubscribeLogo'
-import Link from 'next/link'
 
 export function Services() {
   return (
