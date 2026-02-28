@@ -38,9 +38,6 @@ export function CompanyInfo() {
           <Text as={'dt'} fontWeight={'bold'} w={'150px'}>事業内容</Text>
           <Stack gap={2}>
             <Text as={'dd'}>Webアプリケーションの設計・開発</Text>
-            <Text as={'dd'}>
-              スケジュール配信プラットフォーム「<b>subscribe*</b>」の開発
-            </Text>
           </Stack>
         </Stack>
       </dl>
