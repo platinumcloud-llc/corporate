@@ -4,7 +4,7 @@ import Link from 'next/link'
 export function Contacts() {
   return (
     <Box
-      maxW={'800px'}
+      bgColor={'#f7f7f7'}
       mx={'auto'}
       color={'#333'}
       py={20}

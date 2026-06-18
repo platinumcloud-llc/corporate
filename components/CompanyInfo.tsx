@@ -18,8 +18,7 @@ export function CompanyInfo() {
         <Stack direction={{base: 'column', md: 'row'}} p={5} borderBottom={'2px solid #eee'}>
           <Text as={'dt'} fontWeight={'bold'} w={'150px'}>所在地</Text>
           <Text as={'dd'}>
-            〒1010021<br/>
-            東京都千代田区外神田4-14-1 秋葉原UDX4F
+            東京都千代田区神田神保町3-11-6 神保町ビル10F
           </Text>
         </Stack>
         <Stack direction={{base: 'column', md: 'row'}} p={5} borderBottom={'2px solid #eee'}>
@@ -37,7 +36,8 @@ export function CompanyInfo() {
         <Stack direction={{base: 'column', md: 'row'}} p={5}>
           <Text as={'dt'} fontWeight={'bold'} w={'150px'}>事業内容</Text>
           <Stack gap={2}>
-            <Text as={'dd'}>Webアプリケーションの設計・開発</Text>
+            <Text as={'dd'}>Webアプリケーションの設計・開発・運用</Text>
+            <Text as={'dd'}>動画・SNSコンテンツの制作・撮影・編集</Text>
           </Stack>
         </Stack>
       </dl>
