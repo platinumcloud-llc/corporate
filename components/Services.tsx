@@ -1,4 +1,5 @@
 import {Box, Heading, Text, VStack} from '@chakra-ui/react'
+import {ImageEditorCard} from '@/components/ImageEditorCard'
 
 export function Services() {
   return (
@@ -13,6 +14,7 @@ export function Services() {
         px={5}
       >
         <Heading as={'h2'} fontSize={'2xl'} mb={8} textAlign={'center'}>事業・サービス</Heading>
+        <ImageEditorCard/>
         <VStack
           p={10}
           borderRadius={10}
@@ -23,7 +25,7 @@ export function Services() {
         >
           <Text textAlign={'center'} color={'#555'} fontWeight={'bold'} fontSize={'lg'}>ウェブアプリ開発(業務委託)</Text>
           <Text textAlign={'center'} color={'#555'} fontSize={'sm'}>
-            Next.js / React / TypeScript 等を組み合わせたWebアプリケーションの設計開発を承ります<br />
+            Webアプリケーションの設計開発を承ります<br />
             (現在は募集休止しております)
           </Text>
         </VStack>

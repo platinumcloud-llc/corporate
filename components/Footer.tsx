@@ -2,6 +2,7 @@ import {Box, HStack, Text} from '@chakra-ui/react'
 import {PlatinumCloudLogo} from '@/components/PlatinumCloudLogo'
 import Link from 'next/link'
 import {Tooltip} from '@/components/ui/tooltip'
+import {CopyrightYears} from '@/components/CopyrightYears'
 
 export function Footer() {
   return (
@@ -27,8 +28,8 @@ export function Footer() {
         </Text>
       </HStack>
       <Text fontSize={'xs'} textAlign={'center'} color={'#ffffff'} mb={5}>
-        Made with ❤️ in Akihabara<br />
-        &copy; 2025 platinumcloud
+        Made with ❤️ in <strong>Akihabara</strong><br />
+        &copy; <CopyrightYears since={2025}/> platinumcloud
       </Text>
     </Box>
   )
