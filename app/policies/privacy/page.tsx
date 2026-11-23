@@ -28,7 +28,7 @@ export default function Page() {
       <p>本プライバシーポリシーでは、当サイトにおける個人情報の収集、利用、管理に関する方針を、日本の法令に基づいてご説明します。</p>
 
       <h3>2. 個人情報の収集について</h3>
-      <p>当サイトでは、お問い合わせフォームの利用時に、お名前、メールアドレス、電話番号、その他の必要な情報をご提供いただく場合があります。</p>
+      <p>当サイトでは、メールでのお問い合わせの際に、お名前、メールアドレス、電話番号、その他の必要な情報をご提供いただく場合があります。</p>
 
       <h3>3. 個人情報の利用目的</h3>
       <p>収集した個人情報は、以下の目的の範囲内で利用いたします。</p>
@@ -67,9 +67,9 @@ export default function Page() {
       <p>
         本プライバシーポリシーに関するご質問や個人情報の取扱いに関するお問い合わせは、
         <Text as={'span'} fontWeight={'bold'}>
-          <Link href={'https://forms.gle/tCz2gj1wcsHGMuPD6'} target={'_blank'}>お問い合わせフォーム</Link>
+          <Link href={'mailto:support@platinumcloud.net'}>support@platinumcloud.net</Link>
         </Text>
-        よりご連絡ください。
+        までご連絡ください。
       </p>
 
       <Text textAlign={'right'} mt={10}>以上</Text>

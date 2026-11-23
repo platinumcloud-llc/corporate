@@ -12,17 +12,17 @@ export function Contacts() {
     >
       <Heading fontSize={'2xl'} mb={8} textAlign={'center'}>お問い合わせ</Heading>
       <Text textAlign={'center'} mb={5}>
-        プラチナクラウド合同会社へのお問い合わせは以下のフォームよりお願いいたします。
+        プラチナクラウド合同会社へのお問い合わせは、以下のメールアドレスまでお願いいたします。
       </Text>
       <VStack>
-        <Link href={'https://forms.gle/tCz2gj1wcsHGMuPD6'} target={'_blank'}>
+        <Link href={'mailto:support@platinumcloud.net'}>
           <Button
             size={'xl'}
             borderRadius={5}
             w={'300px'}
             bgColor={'#333'}
           >
-            お問い合わせフォーム
+            support@platinumcloud.net
           </Button>
         </Link>
       </VStack>
