@@ -4,6 +4,8 @@
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "corporate",
   "compatibility_date": "2026-11-01",
+  // Build the static export before deploying (also when the dashboard has no build command).
+  "build": { "command": "npm run build" },
   "assets": {
     "directory": "./out",
     // /policies/privacy serves policies/privacy.html.
