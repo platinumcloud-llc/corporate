@@ -1,0 +1,13 @@
+// Cloudflare Workers (static assets only): serves the static export in ./out.
+// Build: `npm run build`, then `npx wrangler deploy`.
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "corporate",
+  "compatibility_date": "2026-11-01",
+  "assets": {
+    "directory": "./out",
+    // /policies/privacy serves policies/privacy.html.
+    "html_handling": "auto-trailing-slash",
+    "not_found_handling": "404-page"
+  }
+}
